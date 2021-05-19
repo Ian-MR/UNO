@@ -1,0 +1,53 @@
+.carta {
+    display: inline-block;
+    width: 100px;
+    height: 140px;
+    border-radius: 7px;
+    margin: 0 3px;
+    cursor: pointer;    
+}
+
+.mao {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin: 10px auto;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.mesa {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.carta_mesa {
+    display: block;
+    width: 160px;
+    height: 200px;
+    border-radius: 7px;
+
+}
+
+
+.carta:hover {
+    transform: translateY(-40px);
+    transition: .3s ease-in-out;
+}
+
+/* Cartas do uno */
+.amarelo {
+    background-color: #FBE74B;
+}
+.azul {
+    background-color: #488296;
+}
+.verde {
+    background-color: #6B7E4A;
+}
+.vermelha {
+    background-color: #C04C30;
+}
