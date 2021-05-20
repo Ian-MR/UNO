@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 .carta {
     display: inline-block;
     width: 100px;
@@ -5,10 +7,18 @@
     border-radius: 7px;
     margin: 0 3px;
     cursor: pointer;    
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.carta > p {
+    margin-top: 30px;
 }
 
 .mao {
-    display: flex;
+    display: inline-flex;
     position: absolute;
     bottom: 0;
     margin: 10px auto;
@@ -29,7 +39,14 @@
     width: 160px;
     height: 200px;
     border-radius: 7px;
+    color: white;
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
+.carta_mesa > p {
+    margin-top: 35px;
 }
 
 
